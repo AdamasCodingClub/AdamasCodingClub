@@ -11,7 +11,7 @@ length=len(r1)
 p1=nltk.pos_tag(r1)
 ar1[]
 ar2[]
-if(p1=='NN' || p1=='NNP'):
+if(p1=='NN' or p1=='NNP'):
   ar1.append(r)
 for i in ar1:
     if i not in ar2:
